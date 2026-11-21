@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Onionz: private onion search, on your phone</title>
-<meta name="description" content="Onionz builds your own search index of onion sites over Tor, on the phone itself, and searches it with no network requests. Encrypted, no accounts, no adverts. A test build.">
+<meta name="description" content="Onionz builds your own search index of onion sites over Tor, on the phone itself, and searches it with no network requests. Encrypted, no accounts, no adverts. In beta.">
 <meta name="author" content="Jonathan Jackson">
 <link rel="canonical" href="https://customgpter.github.io/onionz/">
 <meta name="theme-color" content="#f8f6fc" media="(prefers-color-scheme: light)">
@@ -12,7 +12,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Onionz">
 <meta property="og:title" content="Onionz: private onion search, on your phone">
-<meta property="og:description" content="Onionz builds your own search index of onion sites over Tor, on the phone itself, and searches it with no network requests. Encrypted, no accounts, no adverts. A test build.">
+<meta property="og:description" content="Onionz builds your own search index of onion sites over Tor, on the phone itself, and searches it with no network requests. Encrypted, no accounts, no adverts. In beta.">
 <meta property="og:url" content="https://customgpter.github.io/onionz/">
 <meta property="og:image" content="https://customgpter.github.io/onionz/assets/og.png">
 <meta property="og:image:width" content="1200">
@@ -28,7 +28,7 @@
 <link rel="stylesheet" href="./assets/house.css?v=1">
 <link rel="stylesheet" href="./assets/apps-list.css?v=1">
 <script src="./assets/apps-list.js?v=1" defer></script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Onionz","url":"https://customgpter.github.io/onionz/","description":"Onionz builds your own search index of onion sites over Tor, on the phone itself, and searches it with no network requests. Encrypted, no accounts, no adverts. A test build.","applicationCategory":"UtilitiesApplication","operatingSystem":"Android 10 or later","softwareVersion":"0.2.0 beta 1","downloadUrl":"https://github.com/CustomGPTer/onionz/releases/download/v0.2.0-beta1/Onionz.apk","releaseNotes":"https://customgpter.github.io/onionz/releases.html","offers":{"@type":"Offer","price":"0","priceCurrency":"GBP"},"inLanguage":"en-GB","image":"https://customgpter.github.io/onionz/assets/og.png","featureList":["Tor built in","Onion sites only","Polite crawling","Several at once","Proper search","Saved text reader","Bookmarks","Limits","Pause any time","Background or not","Encrypted index","App lock"],"author":{"@type":"Person","name":"Jonathan Jackson"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Onionz","url":"https://customgpter.github.io/onionz/","description":"Onionz builds your own search index of onion sites over Tor, on the phone itself, and searches it with no network requests. Encrypted, no accounts, no adverts. In beta.","applicationCategory":"UtilitiesApplication","operatingSystem":"Android 10 or later","softwareVersion":"0.2.0 beta 1","downloadUrl":"https://github.com/CustomGPTer/onionz/releases/download/v0.2.0-beta1/Onionz.apk","releaseNotes":"https://customgpter.github.io/onionz/releases.html","offers":{"@type":"Offer","price":"0","priceCurrency":"GBP"},"inLanguage":"en-GB","image":"https://customgpter.github.io/onionz/assets/og.png","featureList":["Tor built in","Onion sites only","Polite crawling","Several at once","Proper search","Saved text reader","Bookmarks","Limits","Pause any time","Background or not","Encrypted index","App lock"],"author":{"@type":"Person","name":"Jonathan Jackson"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Onionz free?","acceptedAnswer":{"@type":"Answer","text":"Yes. There is no paid version, no subscription and no adverts."}},{"@type":"Question","name":"Does it come with an index?","acceptedAnswer":{"@type":"Answer","text":"No. It starts empty. The starting sources are where it begins looking, not ready-made results. The first crawl can take a while, as Tor is slow."}},{"@type":"Question","name":"Can websites tell I'm using it?","acceptedAnswer":{"@type":"Answer","text":"Onion sites can see that a crawler is visiting, because Onionz says so. They cannot see your search."}},{"@type":"Question","name":"How do I open a live page?","acceptedAnswer":{"@type":"Answer","text":"Onionz shows the saved text. To open the live page, it hands the address to the official Tor Browser, which you install separately."}},{"@type":"Question","name":"What happens if I uninstall it?","acceptedAnswer":{"@type":"Answer","text":"The index is deleted with the app. It cannot be recovered."}},{"@type":"Question","name":"Is it on Google Play?","acceptedAnswer":{"@type":"Answer","text":"No. It is downloaded from this site as an Android app file. It needs Android 10 or later."}}]}</script>
 </head>
 <body>
@@ -46,9 +46,9 @@
 <div class="hero-copy">
 <h1>Search onion sites without telling a search company</h1>
 <p class="lede">Onionz visits onion sites over Tor and builds a search index of their text on your phone. Then you search that index, and nothing leaves the phone.</p><p class="lede">You choose where it starts. It follows links from there, at a polite pace, and keeps everything encrypted.</p>
-<p class="beta-note"><b>Test build.</b> This is a test build. It has not had an independent security audit, and no app can promise complete anonymity.</p>
+<p class="beta-note"><b>Beta.</b> Onionz is in beta. It has not had an independent security audit, and no app can promise complete anonymity.</p>
 <div class="gate-scope"><div class="law-box" data-gate><label><input type="checkbox"> I understand and will use this app within the law</label><p>Some onion sites and some uses of them are against the law. <a href="terms.html#law">What the law says</a></p><noscript><p>Turn on JavaScript to tick the box and download.</p></noscript></div><p class="get" id="download"><a class="button" data-href="https://github.com/CustomGPTer/onionz/releases/download/v0.2.0-beta1/Onionz.apk" aria-disabled="true" role="link" tabindex="-1"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download for Android</a><a class="aside" href="#install">How to install</a></p></div>
-<ul class="pills"><li>Version 0.2.0 beta 1</li><li>Android 10 or later</li><li>13 MB</li><li>Test build</li></ul>
+<ul class="pills"><li>Version 0.2.0 beta 1</li><li>Android 10 or later</li><li>13 MB</li><li>Beta</li></ul>
 <p class="facts">Free, with nothing to unlock. No adverts, no account with the developer, no tracking. <a href="compare.html">Compare</a> or read the <a href="releases.html">release notes</a>.</p>
 <p class="facts">Chrome may say the file might be harmful. It shows this for app files that do not come from Google Play. Choose Download anyway.</p>
 </div>
