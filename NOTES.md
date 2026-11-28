@@ -1,8 +1,8 @@
-Onionz 0.2.0 test build.
+Onionz 0.2.1 beta 1
 
-- Faster crawling: four addresses at once by default, adjustable from 1 to 6 in Settings, Crawling behaviour, Parallel URLs.
-- Different onion sites are fetched first. Each site still gets one request at a time, with its robots.txt rules and at least two seconds between requests.
-- The Activity screen shows how many pages are being worked on and how many are downloading.
-- Pause stops every download and keeps unfinished pages in the queue.
+- Scheduled refresh now works within Android's limits: it carries on in short runs until finished and survives phone restarts, with a quiet notice when done.
+- The crawler now looks like Tor Browser to onion sites, so it no longer names the app. It still obeys robots.txt.
+- Unlock screen and notification icon fixes.
+- New opening screen, an About section in Settings and a More apps card.
 
-Install over your current Onionz to keep your index. Do not uninstall or clear its data. Android 10 or later. Not independently audited; no app can promise complete anonymity.
+Install over your current Onionz. Don't uninstall it, or you'll lose your index.
